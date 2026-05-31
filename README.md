@@ -27,16 +27,31 @@
 
 # Результаты экспериментов
 
+Задача оценивается по метрике `RMSE (Root Mean Squared Error)`, усреднённый по трём таргетам.
+
 | Ноутбук | Kaggle-score |
 |---------|--------|
 | `Final_pipeline_team7.ipynb` | 269.45188 |
-| `experiment_mlp.ipynb` | 279.20021|
+| `2rounds_ensemble_team7.ipynb` | 279.20021|
 | `From_Descriptors_to_Ratio_Conditional_Forecasting_team7.ipynb` | 290.43069 |
 | `CatBoost_Per_Target_team7.ipynb` | 298.04925 |
 | `ensemble_log_transform_team7.ipynb` | 321.50592 |
 
-# Краткое описание ноутбуков
+# Краткое описание данных 
 
-# Подробное описание финального решения `Final_pipeline_team7.ipynb`
+| Файл | Описание | 
+|------|----------|
+| `train.csv` | Обучающая выборка с известными целевыми переменными | 
+| `test.csv` | Тестовая выборка для предсказаний | 
+| `sample_submission.csv` | Пример файла ответов | 
 
+# Краткое описание решений
+1. **[`Final_pipeline_team7.ipynb`](Final_pipeline_team7.ipynb)**
+2. **[`2rounds_ensemble_team7.ipynb`](2rounds_ensemble_team7.ipynb)**
+3. **[`From_Descriptors_to_Ratio_Conditional_Forecasting_team7.ipynb`](From_Descriptors_to_Ratio_Conditional_Forecasting_team7.ipynb)**
+4. **[`CatBoost_Per_Target_team7.ipynb`](CatBoost_Per_Target_team7.ipynb)**
+5. **[`ensemble_log_transform_team7.ipynb`](ensemble_log_transform_team7.ipynb)**
 
+**Воспроизводимость во всех .ipynb**:
+
+# Подробное описание лучшего решения 
